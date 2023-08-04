@@ -1,3 +1,12 @@
+## [0.1.4](https://github.com/oclif/plugin-test-esm-2/compare/0.1.3...0.1.4) (2023-08-04)
+
+
+### Bug Fixes
+
+* add node options ([eb56f38](https://github.com/oclif/plugin-test-esm-2/commit/eb56f38aa3ca295fde68c0dbcfaa47844c3fd098))
+
+
+
 ## [0.1.3](https://github.com/oclif/plugin-test-esm-2/compare/0.1.2...0.1.3) (2023-08-04)
 
 
