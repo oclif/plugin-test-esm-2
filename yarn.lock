@@ -622,18 +622,7 @@
     read-package-json-fast "^3.0.0"
     which "^3.0.0"
 
-"@oclif/color@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@oclif/color/-/color-1.0.4.tgz#07e54e3bd76a29e77d6ad71aef33222fe4f728e7"
-  integrity sha512-HEcVnSzpQkjskqWJyVN3tGgR0H0F8GrBmDjgQ1N0ZwwktYa4y9kfV07P/5vt5BjPXNyslXHc4KAO8Bt7gmErCA==
-  dependencies:
-    ansi-styles "^4.2.1"
-    chalk "^4.1.0"
-    strip-ansi "^6.0.1"
-    supports-color "^8.1.1"
-    tslib "^2"
-
-"@oclif/color@^1.0.8":
+"@oclif/color@^1.0.4", "@oclif/color@^1.0.8":
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/@oclif/color/-/color-1.0.9.tgz#9707f0cd39b3c2eae0eb0c76a90838a594306327"
   integrity sha512-ntc/fZwuf4NRfYbXVoUNFyMB9IxVx/ls/WbSLKbkD9UpsmwY1I3J4DJKKRFRpenmTuxGQW8Lyzm7X3vhzHpDQA==
@@ -696,10 +685,10 @@
     "@oclif/core" "^2.9.3"
     fast-levenshtein "^3.0.0"
 
-"@oclif/plugin-plugins@^3.1.8":
-  version "3.1.8"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-3.1.8.tgz#92ebebda1dd01d40e8f85c488bde3495999721a3"
-  integrity sha512-514sFBzLcR9QCSMWCHt/1XntfjJEZvb637b9YuV4kwq749pKEPF7fjCxSV1gYQCCP4TjMB5gB4AwPL4cCbe+/A==
+"@oclif/plugin-plugins@^3.1.9":
+  version "3.1.9"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-3.1.9.tgz#3b8c6e1b46793240cd6f890d507c32d6b4808f98"
+  integrity sha512-1/zODKwHSV/3K8hvd3vCoOhR1PSmjGdSemr8RAPHvqI0PmugphpUu5ljTlDlqyu39sjQJYza9i1bNHisFapWhg==
   dependencies:
     "@oclif/color" "^1.0.4"
     "@oclif/core" "^2.8.7"
@@ -710,7 +699,7 @@
     load-json-file "^5.3.0"
     npm "^9.7.2"
     npm-run-path "^4.0.1"
-    semver "^7.5.3"
+    semver "^7.5.4"
     shelljs "^0.8.5"
     tslib "^2.6.0"
     validate-npm-package-name "^5.0.0"
