@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/oclif/plugin-test-esm-2/compare/0.1.8...0.2.0) (2023-08-09)
+
+
+### Features
+
+* add init hook ([2ba8a73](https://github.com/oclif/plugin-test-esm-2/commit/2ba8a73c4b9df9c98e50f4614571283fa9a8fa09))
+
+
+
 ## [0.1.8](https://github.com/oclif/plugin-test-esm-2/compare/0.1.7...0.1.8) (2023-08-07)
 
 
