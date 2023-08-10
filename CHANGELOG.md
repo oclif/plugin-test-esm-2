@@ -1,3 +1,12 @@
+## [0.2.3](https://github.com/oclif/plugin-test-esm-2/compare/0.2.2...0.2.3) (2023-08-10)
+
+
+### Bug Fixes
+
+* update tsconfig ([1bc99ac](https://github.com/oclif/plugin-test-esm-2/commit/1bc99acf4944caea1f67539088817774f72bbe10))
+
+
+
 ## [0.2.2](https://github.com/oclif/plugin-test-esm-2/compare/0.2.1...0.2.2) (2023-08-10)
 
 
