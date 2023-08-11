@@ -1,3 +1,12 @@
+## [0.2.6](https://github.com/oclif/plugin-test-esm-2/compare/0.2.5...0.2.6) (2023-08-11)
+
+
+### Bug Fixes
+
+* bump plugin-plugins ([6c0cb1a](https://github.com/oclif/plugin-test-esm-2/commit/6c0cb1adb2757c434c1972927d601c68be85bf46))
+
+
+
 ## [0.2.5](https://github.com/oclif/plugin-test-esm-2/compare/0.2.4...0.2.5) (2023-08-11)
 
 
