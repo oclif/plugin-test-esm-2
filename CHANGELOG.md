@@ -1,3 +1,12 @@
+## [0.2.10](https://github.com/oclif/plugin-test-esm-2/compare/0.2.9...0.2.10) (2023-08-14)
+
+
+### Bug Fixes
+
+* use ts-node/esm loader on windows scripts ([c7a88e3](https://github.com/oclif/plugin-test-esm-2/commit/c7a88e39909484fa2a17677b793b4f07e440da6f))
+
+
+
 ## [0.2.9](https://github.com/oclif/plugin-test-esm-2/compare/0.2.8...0.2.9) (2023-08-13)
 
 
