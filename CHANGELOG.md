@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/oclif/plugin-test-esm-2/compare/0.3.1...0.4.0) (2023-08-21)
+
+
+### Features
+
+* remove ts-node/esm shebang ([602ade6](https://github.com/oclif/plugin-test-esm-2/commit/602ade61ed069dd60b8b478b8a068ff189335ce9))
+
+
+
 ## [0.3.1](https://github.com/oclif/plugin-test-esm-2/compare/0.3.0...0.3.1) (2023-08-15)
 
 
