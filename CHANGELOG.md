@@ -1,3 +1,12 @@
+## [0.4.2](https://github.com/oclif/plugin-test-esm-2/compare/0.4.1...0.4.2) (2023-08-23)
+
+
+### Bug Fixes
+
+* add void to bin scripts ([11fc19b](https://github.com/oclif/plugin-test-esm-2/commit/11fc19b5470251e841cfd29954f60c32b94380b1))
+
+
+
 ## [0.4.1](https://github.com/oclif/plugin-test-esm-2/compare/0.4.0...0.4.1) (2023-08-21)
 
 
