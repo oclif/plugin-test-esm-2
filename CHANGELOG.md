@@ -1,3 +1,12 @@
+## [0.4.4](https://github.com/oclif/plugin-test-esm-2/compare/0.4.3...0.4.4) (2023-08-29)
+
+
+### Bug Fixes
+
+* bump core ([1983aea](https://github.com/oclif/plugin-test-esm-2/commit/1983aea4571e16adf3250c7911bac33ea1fd5684))
+
+
+
 ## [0.4.3](https://github.com/oclif/plugin-test-esm-2/compare/0.4.2...0.4.3) (2023-08-29)
 
 
