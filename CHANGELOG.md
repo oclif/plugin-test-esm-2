@@ -1,3 +1,12 @@
+## [0.4.5](https://github.com/oclif/plugin-test-esm-2/compare/0.4.4...0.4.5) (2023-08-31)
+
+
+### Bug Fixes
+
+* use core v3 ([97f6aff](https://github.com/oclif/plugin-test-esm-2/commit/97f6aff659ceae4842ec4004b57c91e767f366d5))
+
+
+
 ## [0.4.4](https://github.com/oclif/plugin-test-esm-2/compare/0.4.3...0.4.4) (2023-08-29)
 
 
