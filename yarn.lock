@@ -700,10 +700,10 @@
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^3.0.0-beta.5":
-  version "3.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.0.0-beta.5.tgz#4d62ff815d70d3b7b7f76ec365341d53b0258453"
-  integrity sha512-M2GOYi2uAnE9ouI74IWp/Xby93LQj4DO1OKQlVmEotZBp4ZBHhfIza+t61bBffDRNTe3+FH+aQisGZQOuiCpGw==
+"@oclif/core@^3.0.0-beta.12":
+  version "3.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.0.0-beta.12.tgz#7367b0fb51e2d8b3c3f9837e47adce02b69cd726"
+  integrity sha512-nHDobiU0Vz45VGWvHTALJbNYlTNwBTzVpAWsnS+kzvNHozuTTN3oC2UJDC4zWZp6RdveGZhnQh5pZg6Kqisr3g==
   dependencies:
     "@types/cli-progress" "^3.11.0"
     ansi-escapes "^4.3.2"
