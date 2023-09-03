@@ -1,3 +1,12 @@
+## [0.4.7](https://github.com/oclif/plugin-test-esm-2/compare/0.4.6...0.4.7) (2023-09-03)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/plugin-help from 5.2.17 to 5.2.18 ([b25e68f](https://github.com/oclif/plugin-test-esm-2/commit/b25e68fd3ec3bcb79704c9a1c5128104c38bbe7b))
+
+
+
 ## [0.4.6](https://github.com/oclif/plugin-test-esm-2/compare/0.4.5...0.4.6) (2023-09-02)
 
 
