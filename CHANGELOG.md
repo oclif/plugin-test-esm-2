@@ -1,3 +1,12 @@
+## [0.4.10](https://github.com/oclif/plugin-test-esm-2/compare/0.4.9...0.4.10) (2023-09-10)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/core from 3.0.0-beta.12 to 3.0.0-beta.13 ([869b887](https://github.com/oclif/plugin-test-esm-2/commit/869b88796f0d7373537817941f2bb94ad17351d1))
+
+
+
 ## [0.4.9](https://github.com/oclif/plugin-test-esm-2/compare/0.4.8...0.4.9) (2023-09-09)
 
 
