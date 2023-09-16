@@ -664,10 +664,10 @@
     supports-color "^8.1.1"
     tslib "^2"
 
-"@oclif/core@^2.11.10", "@oclif/core@^2.11.4", "@oclif/core@^2.9.3":
-  version "2.12.0"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-2.12.0.tgz#ee2b450cc9c1a54a2445eb192e7881e370178943"
-  integrity sha512-RSfEQzYAmex/dVW/3afIMsaB2n5kG26tniAla+HSAQS7MHqM7LpCrDz5FG9VX5ygSPmQcknWPRmD96N5kyUt1g==
+"@oclif/core@^2.11.10", "@oclif/core@^2.11.4", "@oclif/core@^2.15.0", "@oclif/core@^2.9.3":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-2.15.0.tgz#f27797b30a77d13279fba88c1698fc34a0bd0d2a"
+  integrity sha512-fNEMG5DzJHhYmI3MgpByTvltBOMyFcnRIUMxbiz2ai8rhaYgaTHMG3Q38HcosfIvtw9nCjxpcQtC8MN8QtVCcA==
   dependencies:
     "@types/cli-progress" "^3.11.0"
     ansi-escapes "^4.3.2"
@@ -678,7 +678,6 @@
     cli-progress "^3.12.0"
     debug "^4.3.4"
     ejs "^3.1.8"
-    fs-extra "^9.1.0"
     get-package-type "^0.1.0"
     globby "^11.1.0"
     hyperlinker "^1.0.0"
@@ -688,7 +687,6 @@
     natural-orderby "^2.0.3"
     object-treeify "^1.1.33"
     password-prompt "^1.1.2"
-    semver "^7.5.3"
     slice-ansi "^4.0.0"
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
@@ -781,13 +779,13 @@
     lodash "^4.17.21"
     semver "^7.5.4"
 
-"@oclif/test@^2.5.1":
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-2.5.1.tgz#75531da3beb0ad80f17544cba6f3e61bacacecb0"
-  integrity sha512-lqkhze4ijrBg1MmnVIbxk9rvsD8NiR3ISJ2SiM43tYTCVY6eY+up9p/IjD8i9ZoT/7khnfA/Jxhq0OYOjRYvuw==
+"@oclif/test@^2.5.4":
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-2.5.4.tgz#bea88073591c5b6ca770d3d1d38b371f91626825"
+  integrity sha512-3VaOCD35y6nhUgb2k1UhfZN1hiXH2/t8y2gyIrLVFVG3P522ZATSSdvl3ny7QFmBP2bq6xjj/CkU7Ua/sTJ22Q==
   dependencies:
-    "@oclif/core" "^2.11.10"
-    fancy-test "^2.0.35"
+    "@oclif/core" "^2.15.0"
+    fancy-test "^2.0.38"
 
 "@octokit/auth-token@^2.4.4":
   version "2.5.0"
@@ -2558,10 +2556,10 @@ external-editor@^3.0.3:
     iconv-lite "^0.4.24"
     tmp "^0.0.33"
 
-fancy-test@^2.0.35:
-  version "2.0.37"
-  resolved "https://registry.yarnpkg.com/fancy-test/-/fancy-test-2.0.37.tgz#7cfd18fcaaa76cd2d72636dda00f6f3fae053187"
-  integrity sha512-lCicyu0gzcWNR0x5LyRNGjBNJfrl+C9rKOaC6nJcyPUXvMhZkMVwsCIDuMPaEET0sD8vSliyAipnQ7RZUgXujw==
+fancy-test@^2.0.38:
+  version "2.0.41"
+  resolved "https://registry.yarnpkg.com/fancy-test/-/fancy-test-2.0.41.tgz#47720853e2a80369b61ca361a86ac70999460fbc"
+  integrity sha512-sOb0/gqYkelK6oNRSIkkc/BjHCbVfZeUzfbPA89HR0QKXxPZ7Fwu2l4rr6SuS3Zwoi8zV4aUZ9PNU3p2dmxETQ==
   dependencies:
     "@types/chai" "*"
     "@types/lodash" "*"
@@ -2730,7 +2728,7 @@ fs-extra@^8.1:
     jsonfile "^4.0.0"
     universalify "^0.1.0"
 
-fs-extra@^9.0.1, fs-extra@^9.1.0:
+fs-extra@^9.0.1:
   version "9.1.0"
   resolved "https://registry.npmjs.org/fs-extra/-/fs-extra-9.1.0.tgz"
   integrity sha512-hcg3ZmepS30/7BSFqRvoo3DOMQu7IjqxO5nCDt+zM9XWjb33Wg7ziNT+Qvqbuc3+gWpzO02JubVyk2G4Zvo1OQ==
