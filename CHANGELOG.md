@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/oclif/plugin-test-esm-2/compare/0.4.12...0.5.0) (2023-09-21)
+
+
+### Features
+
+* add flags and args ([ca4f019](https://github.com/oclif/plugin-test-esm-2/commit/ca4f0190c97d677f990d5385c7cbff173f993174))
+
+
+
 ## [0.4.12](https://github.com/oclif/plugin-test-esm-2/compare/0.4.11...0.4.12) (2023-09-17)
 
 
