@@ -1,3 +1,12 @@
+# [0.6.0](https://github.com/oclif/plugin-test-esm-2/compare/0.5.3...0.6.0) (2023-10-04)
+
+
+### Features
+
+* use latest deps ([5a2e364](https://github.com/oclif/plugin-test-esm-2/commit/5a2e364913752176feb7207de42e384957c78b78))
+
+
+
 ## [0.5.3](https://github.com/oclif/plugin-test-esm-2/compare/0.5.2...0.5.3) (2023-09-30)
 
 
