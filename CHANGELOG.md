@@ -1,3 +1,12 @@
+## [0.6.10](https://github.com/oclif/plugin-test-esm-2/compare/0.6.9...0.6.10) (2024-02-21)
+
+
+### Bug Fixes
+
+* **deps:** bump ip from 2.0.0 to 2.0.1 ([fc86788](https://github.com/oclif/plugin-test-esm-2/commit/fc8678850aeac2a591eb14d65e02e81deebaa7ed))
+
+
+
 ## [0.6.9](https://github.com/oclif/plugin-test-esm-2/compare/0.6.8...0.6.9) (2024-02-03)
 
 
