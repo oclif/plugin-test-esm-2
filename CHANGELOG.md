@@ -1,3 +1,12 @@
+## [0.6.17](https://github.com/oclif/plugin-test-esm-2/compare/0.6.16...0.6.17) (2024-05-22)
+
+
+### Bug Fixes
+
+* use oclif/test v4 ([18bbab2](https://github.com/oclif/plugin-test-esm-2/commit/18bbab2d8be7788a358fd4020c67cf952402125c))
+
+
+
 ## [0.6.16](https://github.com/oclif/plugin-test-esm-2/compare/0.6.15...0.6.16) (2024-05-05)
 
 

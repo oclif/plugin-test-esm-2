@@ -18,7 +18,7 @@ $ npm install -g @oclif/plugin-test-esm-2
 $ esm2 COMMAND
 running command...
 $ esm2 (--version)
-@oclif/plugin-test-esm-2/0.6.16 linux-x64 node-v18.20.2
+@oclif/plugin-test-esm-2/0.6.17 linux-x64 node-v18.20.2
 $ esm2 --help [COMMAND]
 USAGE
   $ esm2 COMMAND
@@ -28,12 +28,13 @@ USAGE
 # Commands
 <!-- commands -->
 * [`esm2 esm2 [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG]`](#esm2-esm2-optionalarg-defaultarg-defaultfnarg)
-* [`esm2 help [COMMANDS]`](#esm2-help-commands)
+* [`esm2 help [COMMAND]`](#esm2-help-command)
 * [`esm2 plugins`](#esm2-plugins)
 * [`esm2 plugins:inspect PLUGIN...`](#esm2-pluginsinspect-plugin)
-* [`esm2 plugins:install PLUGIN...`](#esm2-pluginsinstall-plugin)
-* [`esm2 plugins:link PLUGIN`](#esm2-pluginslink-plugin)
-* [`esm2 plugins:uninstall PLUGIN...`](#esm2-pluginsuninstall-plugin)
+* [`esm2 plugins install PLUGIN`](#esm2-plugins-install-plugin)
+* [`esm2 plugins link PATH`](#esm2-plugins-link-path)
+* [`esm2 plugins reset`](#esm2-plugins-reset)
+* [`esm2 plugins uninstall [PLUGIN]`](#esm2-plugins-uninstall-plugin)
 * [`esm2 plugins update`](#esm2-plugins-update)
 
 ## `esm2 esm2 [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG]`
@@ -49,18 +50,18 @@ FLAGS
   --optionalString=<value>
 ```
 
-_See code: [src/commands/esm2.ts](https://github.com/oclif/plugin-test-esm-2/blob/0.6.16/src/commands/esm2.ts)_
+_See code: [src/commands/esm2.ts](https://github.com/oclif/plugin-test-esm-2/blob/0.6.17/src/commands/esm2.ts)_
 
-## `esm2 help [COMMANDS]`
+## `esm2 help [COMMAND]`
 
 Display help for esm2.
 
 ```
 USAGE
-  $ esm2 help [COMMANDS] [-n]
+  $ esm2 help [COMMAND] [-n]
 
 ARGUMENTS
-  COMMANDS  Command to show help for.
+  COMMAND  Command to show help for.
 
 FLAGS
   -n, --nested-commands  Include all nested commands in the output.
@@ -69,7 +70,7 @@ DESCRIPTION
   Display help for esm2.
 ```
 
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/5.2.20/src/commands/help.ts)_
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/6.0.22/src/commands/help.ts)_
 
 ## `esm2 plugins`
 
@@ -92,7 +93,7 @@ EXAMPLES
   $ esm2 plugins
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/3.9.4/src/commands/plugins/index.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/index.ts)_
 
 ## `esm2 plugins:inspect PLUGIN...`
 
@@ -116,58 +117,67 @@ DESCRIPTION
   Displays installation properties of a plugin.
 
 EXAMPLES
-  $ esm2 plugins:inspect myplugin
+  $ esm2 plugins inspect myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/3.9.4/src/commands/plugins/inspect.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/inspect.ts)_
 
-## `esm2 plugins:install PLUGIN...`
+## `esm2 plugins install PLUGIN`
 
-Installs a plugin into the CLI.
+Installs a plugin into esm2.
 
 ```
 USAGE
-  $ esm2 plugins:install PLUGIN...
+  $ esm2 plugins install PLUGIN [--json] [-f] [-h] [-s | -v]
 
 ARGUMENTS
   PLUGIN  Plugin to install.
 
 FLAGS
-  -f, --force    Run yarn install with force flag.
+  -f, --force    Force npm to fetch remote resources even if a local copy exists on disk.
   -h, --help     Show CLI help.
-  -v, --verbose
+  -s, --silent   Silences npm output.
+  -v, --verbose  Show verbose npm output.
+
+GLOBAL FLAGS
+  --json  Format output as json.
 
 DESCRIPTION
-  Installs a plugin into the CLI.
-  Can be installed from npm or a git url.
+  Installs a plugin into esm2.
+
+  Uses bundled npm executable to install plugins into /home/runner/.local/share/esm2
 
   Installation of a user-installed plugin will override a core plugin.
 
-  e.g. If you have a core plugin that has a 'hello' command, installing a user-installed plugin with a 'hello' command
-  will override the core plugin implementation. This is useful if a user needs to update core plugin functionality in
-  the CLI without the need to patch and update the whole CLI.
-
+  Use the ESM2_NPM_LOG_LEVEL environment variable to set the npm loglevel.
+  Use the ESM2_NPM_REGISTRY environment variable to set the npm registry.
 
 ALIASES
   $ esm2 plugins add
 
 EXAMPLES
-  $ esm2 plugins:install myplugin 
+  Install a plugin from npm registry.
 
-  $ esm2 plugins:install https://github.com/someuser/someplugin
+    $ esm2 plugins install myplugin
 
-  $ esm2 plugins:install someuser/someplugin
+  Install a plugin from a github url.
+
+    $ esm2 plugins install https://github.com/someuser/someplugin
+
+  Install a plugin from a github slug.
+
+    $ esm2 plugins install someuser/someplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/3.9.4/src/commands/plugins/install.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/install.ts)_
 
-## `esm2 plugins:link PLUGIN`
+## `esm2 plugins link PATH`
 
 Links a plugin into the CLI for development.
 
 ```
 USAGE
-  $ esm2 plugins:link PLUGIN
+  $ esm2 plugins link PATH [-h] [--install] [-v]
 
 ARGUMENTS
   PATH  [default: .] path to plugin
@@ -186,18 +196,33 @@ DESCRIPTION
 
 
 EXAMPLES
-  $ esm2 plugins:link myplugin
+  $ esm2 plugins link myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/3.9.4/src/commands/plugins/link.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/link.ts)_
 
-## `esm2 plugins:uninstall PLUGIN...`
+## `esm2 plugins reset`
+
+Remove all user-installed and linked plugins.
+
+```
+USAGE
+  $ esm2 plugins reset [--hard] [--reinstall]
+
+FLAGS
+  --hard       Delete node_modules and package manager related files in addition to uninstalling plugins.
+  --reinstall  Reinstall all plugins after uninstalling.
+```
+
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/reset.ts)_
+
+## `esm2 plugins uninstall [PLUGIN]`
 
 Removes a plugin from the CLI.
 
 ```
 USAGE
-  $ esm2 plugins:uninstall PLUGIN...
+  $ esm2 plugins uninstall [PLUGIN] [-h] [-v]
 
 ARGUMENTS
   PLUGIN  plugin to uninstall
@@ -212,9 +237,12 @@ DESCRIPTION
 ALIASES
   $ esm2 plugins unlink
   $ esm2 plugins remove
+
+EXAMPLES
+  $ esm2 plugins uninstall myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/3.9.4/src/commands/plugins/uninstall.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/uninstall.ts)_
 
 ## `esm2 plugins update`
 
@@ -232,5 +260,5 @@ DESCRIPTION
   Update installed plugins.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/3.9.4/src/commands/plugins/update.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/update.ts)_
 <!-- commandsstop -->
