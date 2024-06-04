@@ -1,3 +1,12 @@
+# [0.7.0](https://github.com/oclif/plugin-test-esm-2/compare/0.6.20...0.7.0) (2024-06-04)
+
+
+### Features
+
+* core v4 ([b1fd1c2](https://github.com/oclif/plugin-test-esm-2/commit/b1fd1c2914602c1ec1449c042d1765fb5c208fa0))
+
+
+
 ## [0.6.20](https://github.com/oclif/plugin-test-esm-2/compare/0.6.19...0.6.20) (2024-06-02)
 
 
