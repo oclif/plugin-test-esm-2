@@ -18,7 +18,7 @@ $ npm install -g @oclif/plugin-test-esm-2
 $ esm2 COMMAND
 running command...
 $ esm2 (--version)
-@oclif/plugin-test-esm-2/0.7.4 linux-x64 node-v18.20.3
+@oclif/plugin-test-esm-2/0.7.5 linux-x64 node-v18.20.3
 $ esm2 --help [COMMAND]
 USAGE
   $ esm2 COMMAND
@@ -50,7 +50,7 @@ FLAGS
   --optionalString=<value>
 ```
 
-_See code: [src/commands/esm2.ts](https://github.com/oclif/plugin-test-esm-2/blob/0.7.4/src/commands/esm2.ts)_
+_See code: [src/commands/esm2.ts](https://github.com/oclif/plugin-test-esm-2/blob/0.7.5/src/commands/esm2.ts)_
 
 ## `esm2 help [COMMAND]`
 
