@@ -1,3 +1,12 @@
+## [0.7.45](https://github.com/oclif/plugin-test-esm-2/compare/0.7.44...0.7.45) (2024-11-17)
+
+
+### Bug Fixes
+
+* **deps:** bump cross-spawn from 7.0.3 to 7.0.5 ([#273](https://github.com/oclif/plugin-test-esm-2/issues/273)) ([e1d7d2e](https://github.com/oclif/plugin-test-esm-2/commit/e1d7d2ee1b214702ea961d9ba787eb603f27d469))
+
+
+
 ## [0.7.44](https://github.com/oclif/plugin-test-esm-2/compare/0.7.43...0.7.44) (2024-11-02)
 
 
