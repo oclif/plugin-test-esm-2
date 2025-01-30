@@ -11,7 +11,7 @@
   "main": "",
   "repository": "oclif/plugin-test-esm-2",
   "files": [
-    "/bin",
+    "bin",
     "/dist",
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
@@ -22,16 +22,16 @@
     "@oclif/plugin-plugins": "^5"
   },
   "devDependencies": {
+    "@eslint/compat": "^1.2.5",
     "@oclif/prettier-config": "^0.2.1",
     "@oclif/test": "^4",
     "@types/chai": "^4",
     "@types/mocha": "^10",
     "@types/node": "^18",
     "chai": "^4",
-    "eslint": "^8",
-    "eslint-config-oclif": "^5",
-    "eslint-config-oclif-typescript": "^2.0.1",
-    "eslint-config-prettier": "^9.1.0",
+    "eslint": "^9.19.0",
+    "eslint-config-oclif": "^6.0.0",
+    "eslint-config-prettier": "^10.0.1",
     "mocha": "^10",
     "oclif": "^4",
     "shx": "^0.3.4",
@@ -58,7 +58,7 @@
   },
   "scripts": {
     "build": "shx rm -rf dist && tsc -b",
-    "lint": "eslint . --ext .ts",
+    "lint": "eslint",
     "postpack": "shx rm -f oclif.manifest.json",
     "posttest": "yarn lint",
     "prepack": "yarn build && oclif manifest && oclif readme",
@@ -66,7 +66,7 @@
     "version": "oclif readme && git add README.md"
   },
   "engines": {
-    "node": ">=12.0.0"
+    "node": ">=18.0.0"
   },
   "bugs": "https://github.com/oclif/plugin-test-esm-2/issues",
   "keywords": [
