@@ -18,7 +18,7 @@ $ npm install -g @oclif/plugin-test-esm-2
 $ esm2 COMMAND
 running command...
 $ esm2 (--version)
-@oclif/plugin-test-esm-2/0.7.93 linux-x64 node-v20.19.5
+@oclif/plugin-test-esm-2/0.7.94 linux-x64 node-v20.19.5
 $ esm2 --help [COMMAND]
 USAGE
   $ esm2 COMMAND
@@ -53,7 +53,7 @@ GLOBAL FLAGS
   --json  Format output as json.
 ```
 
-_See code: [src/commands/esm2.ts](https://github.com/oclif/plugin-test-esm-2/blob/0.7.93/src/commands/esm2.ts)_
+_See code: [src/commands/esm2.ts](https://github.com/oclif/plugin-test-esm-2/blob/0.7.94/src/commands/esm2.ts)_
 
 ## `esm2 help [COMMAND]`
 
@@ -96,7 +96,7 @@ EXAMPLES
   $ esm2 plugins
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.48/src/commands/plugins/index.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.49/src/commands/plugins/index.ts)_
 
 ## `esm2 plugins:inspect PLUGIN...`
 
@@ -123,7 +123,7 @@ EXAMPLES
   $ esm2 plugins inspect myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.48/src/commands/plugins/inspect.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.49/src/commands/plugins/inspect.ts)_
 
 ## `esm2 plugins install PLUGIN`
 
@@ -172,7 +172,7 @@ EXAMPLES
     $ esm2 plugins install someuser/someplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.48/src/commands/plugins/install.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.49/src/commands/plugins/install.ts)_
 
 ## `esm2 plugins link PATH`
 
@@ -203,7 +203,7 @@ EXAMPLES
   $ esm2 plugins link myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.48/src/commands/plugins/link.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.49/src/commands/plugins/link.ts)_
 
 ## `esm2 plugins reset`
 
@@ -218,7 +218,7 @@ FLAGS
   --reinstall  Reinstall all plugins after uninstalling.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.48/src/commands/plugins/reset.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.49/src/commands/plugins/reset.ts)_
 
 ## `esm2 plugins uninstall [PLUGIN]`
 
@@ -246,7 +246,7 @@ EXAMPLES
   $ esm2 plugins uninstall myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.48/src/commands/plugins/uninstall.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.49/src/commands/plugins/uninstall.ts)_
 
 ## `esm2 plugins update`
 
@@ -264,5 +264,5 @@ DESCRIPTION
   Update installed plugins.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.48/src/commands/plugins/update.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.49/src/commands/plugins/update.ts)_
 <!-- commandsstop -->
