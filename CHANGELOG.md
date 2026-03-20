@@ -1,3 +1,12 @@
+## [0.7.108](https://github.com/oclif/plugin-test-esm-2/compare/0.7.107...0.7.108) (2026-03-20)
+
+
+### Bug Fixes
+
+* **deps:** bump flatted from 3.3.1 to 3.4.2 ([#540](https://github.com/oclif/plugin-test-esm-2/issues/540)) ([86e16bb](https://github.com/oclif/plugin-test-esm-2/commit/86e16bb9235de851d95e9e3902ad5d25f5486f87))
+
+
+
 ## [0.7.107](https://github.com/oclif/plugin-test-esm-2/compare/0.7.106...0.7.107) (2026-02-07)
 
 
