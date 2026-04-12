@@ -1,3 +1,12 @@
+## [0.7.117](https://github.com/oclif/plugin-test-esm-2/compare/0.7.116...0.7.117) (2026-04-12)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/core from 4.10.4 to 4.10.5 ([#555](https://github.com/oclif/plugin-test-esm-2/issues/555)) ([953d9a7](https://github.com/oclif/plugin-test-esm-2/commit/953d9a7b08c51f54a1768865964777020cfd27da))
+
+
+
 ## [0.7.116](https://github.com/oclif/plugin-test-esm-2/compare/0.7.115...0.7.116) (2026-04-12)
 
 
