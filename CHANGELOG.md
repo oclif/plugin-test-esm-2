@@ -1,3 +1,12 @@
+## [0.7.124](https://github.com/oclif/plugin-test-esm-2/compare/0.7.123...0.7.124) (2026-05-09)
+
+
+### Bug Fixes
+
+* **deps:** bump fast-xml-builder from 1.1.4 to 1.2.0 ([#569](https://github.com/oclif/plugin-test-esm-2/issues/569)) ([12e590a](https://github.com/oclif/plugin-test-esm-2/commit/12e590a794604880be81dd2a31c9c884f0cb35e1))
+
+
+
 ## [0.7.123](https://github.com/oclif/plugin-test-esm-2/compare/0.7.122...0.7.123) (2026-05-03)
 
 
