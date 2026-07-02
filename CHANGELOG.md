@@ -1,3 +1,12 @@
+## [0.7.143](https://github.com/oclif/plugin-test-esm-2/compare/0.7.142...0.7.143) (2026-07-02)
+
+
+### Bug Fixes
+
+* **deps:** bump sigstore from 4.1.0 to 4.1.1 ([#607](https://github.com/oclif/plugin-test-esm-2/issues/607)) ([ce8361d](https://github.com/oclif/plugin-test-esm-2/commit/ce8361dc16a6f7804d777e468002549b5eb4d5e8))
+
+
+
 ## [0.7.142](https://github.com/oclif/plugin-test-esm-2/compare/0.7.141...0.7.142) (2026-07-02)
 
 
