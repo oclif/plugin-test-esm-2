@@ -1,3 +1,12 @@
+## [0.7.147](https://github.com/oclif/plugin-test-esm-2/compare/0.7.146...0.7.147) (2026-07-25)
+
+
+### Bug Fixes
+
+* **deps:** bump tar from 7.5.16 to 7.5.22 ([#622](https://github.com/oclif/plugin-test-esm-2/issues/622)) ([06625fe](https://github.com/oclif/plugin-test-esm-2/commit/06625fe01d581b7b2c44f3dd9d43485040153323))
+
+
+
 ## [0.7.146](https://github.com/oclif/plugin-test-esm-2/compare/0.7.145...0.7.146) (2026-07-11)
 
 
