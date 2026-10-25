@@ -1,3 +1,12 @@
+## [0.7.174](https://github.com/oclif/plugin-test-esm-2/compare/0.7.173...0.7.174) (2026-10-25)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/plugin-help from 7.0.4 to 7.0.5 ([#659](https://github.com/oclif/plugin-test-esm-2/issues/659)) ([c74832a](https://github.com/oclif/plugin-test-esm-2/commit/c74832aaef95af16da5cccb10c65039b41e49a55))
+
+
+
 ## [0.7.173](https://github.com/oclif/plugin-test-esm-2/compare/0.7.172...0.7.173) (2026-10-25)
 
 
